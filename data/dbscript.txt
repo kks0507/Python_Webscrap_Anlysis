@@ -8,7 +8,7 @@ grant all privileges on python_db.* to 'python'@'%';
 flush privileges;
 select user, host from user;
 exit;
-
+ 
 mysql -u python -p
 show grants for current_user;
 use python_db;
